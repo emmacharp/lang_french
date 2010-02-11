@@ -10,7 +10,7 @@
 			return array(
 				'name' => 'Language: French',
 				'type' => 'Localisation',
-				'version' => '1.0',
+				'version' => '1.1',
 				'release-date' => '2010-02-09',
 				'author' => array(
 					'name' => 'Grégoire Dierendonck / Pierre Bertet',
