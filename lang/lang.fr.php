@@ -953,7 +953,7 @@
 		'Menu de sélection',
 
 		'Send Email' => 
-		'Message envoyé',
+		'Envoyer email',
 
 		'Send Email Filter' => 
 		'Filtre d’envoi d’email',
@@ -1516,7 +1516,7 @@
 		'Résultat',
 
 		'Select Box Link' => 
-		'Lien du menu de sélection',
+		'Menu de sélection lié',
 
 		'Slow Queries (> 0.09s)' => 
 		'Requêtes lentes (> 0.09s)',
