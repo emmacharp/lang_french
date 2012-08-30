@@ -10,12 +10,12 @@
 			return array(
 				'name' => 'Language: French',
 				'type' => 'Localisation',
-				'version' => '1.1',
-				'release-date' => '2010-02-09',
+				'version' => '1.2',
+				'release-date' => '2012-08-30',
 				'author' => array(
-					'name' => 'Grégoire Dierendonck / Pierre Bertet',
-					'website' => 'http://www.lefauteuil.fr',
-					'email' => 'contact@lefauteuil.fr'
+					'name' => 'Pierre Bertet / Grégoire Dierendonck',
+					'website' => 'http://pierrebertet.net/',
+					'email' => 'bonjour@pierrebertet.net'
 				),
 				'description' => 'French translation for the Symphony backend',
 				'compatibility' => array(
@@ -28,6 +28,7 @@
 					'2.0.6' => false,
 					'2.0.7' => true,
 					'2.0.8' => true,
+					'2.3' => true,
 				)
 			);
 		}
