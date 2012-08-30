@@ -3,11 +3,11 @@
 	$about = array(
 		'name' => 'Français',
 		'author' => array(
-			'name' => 'Grégoire Dierendonck / Pierre Bertet',
-			'email' => 'contact@lefauteuil.fr',
-			'website' => 'http://www.lefauteuil.fr'
+			'name' => 'Pierre Bertet / Grégoire Dierendonck',
+			'email' => 'bonjour@pierrebertet.net',
+			'website' => 'http://pierrebertet.net/'
 		),
-		'release-date' => '2010-02-11',
+		'release-date' => '2012-08-30',
 	);
 
 
