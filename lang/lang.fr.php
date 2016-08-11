@@ -139,6 +139,9 @@
 		'All of these fields can be set dynamically using the exact field name of another field in the form as shown below in the example form:' => 
 		'Tous ces champs peuvent être remplis dynamiquement en utilisant le nom exact du champ ou d’un autre champ du formulaire, comme montré dans le formulaire d’exemple ci-dessous :',
 
+		'Allow filtering of section entries' =>
+		'Autoriser la filtration des entrées d\'une section',
+
 		'Allow Multiple' => 
 		'Autoriser plusieurs',
 
@@ -207,6 +210,9 @@
 
 		'At least one source must be specified, dynamic or static.' => 
 		'Au moins une source doit être spécifiée, dynamique ou statique.',
+
+		'Attach to Pages' =>
+		'Attacher aux Pages',
 
 		'Author' => 
 		'Auteur',
@@ -277,6 +283,9 @@
 		'Cold' => 
 		'Froid',
 
+		'Collapse all' =>
+		'Tout réduire',
+
 		'Components' => 
 		'Composants',
 
@@ -285,6 +294,9 @@
 
 		'Confirm Password' => 
 		'Confirmer le mot de passe',
+
+		'Content' =>
+		'Contenu',
 
 		'Could not %1$s %2$s, there was a problem loading the object. Check the driver class exists.' => 
 		'Impossible de %1$s %2$s, un problème est survenu lors du chargement de l’objet. Vérifiez que la classe du pilote existe.',
@@ -345,6 +357,9 @@
 
 		'Create Page' => 
 		'Créer la Page',
+
+		'Create random entry' =>
+		'Créer une entrée aléatoire',
 
 		'Create Section' => 
 		'Créer une Section',
@@ -487,6 +502,9 @@
 		'Edit Page Template' => 
 		'Modifier le modèle de page',
 
+		'Edit Section' =>
+		'Modifier la section',
+
 		'Edit Template' => 
 		'Modifier le modèle',
 
@@ -604,6 +622,9 @@
 		'Filter Rules' => 
 		'Règles de filtre',
 
+		'Filters' =>
+		'Filtres',
+
 		'First' => 
 		'Premier',
 
@@ -616,6 +637,9 @@
 		'Forbidden' => 
 		'Interdit',
 
+		'Forbidden Parameter' =>
+		'Paramètre Interdit',
+
 		'Formatting' => 
 		'Mise en forme',
 
@@ -624,6 +648,9 @@
 
 		'Group By' => 
 		'Grouper par',
+
+		'Grouping' =>
+		'Grouper',
 
 		'Hairy' => 
 		'Poilu',
@@ -634,14 +661,23 @@
 		'Hi %s,' => 
 		'Salut %s,',
 
+		'Hide this section from the back-end menu' =>
+		'Cacher cette section du menu back-end',
+
 		'Host' => 
 		'Hôte',
 
 		'Hot' => 
 		'Chaud',
 
+		'HTML-encode text' =>
+		'HTML-encoder le texte',
+
 		'ID' => 
 		'ID',
+
+		'Include a count of entries in associated sections' =>
+		'Inclus un compte des entrées avec l\'association des sections',
 
 		'Included Elements' => 
 		'Éléments inclus',
@@ -690,6 +726,9 @@
 
 		'Leave these fields unless you are sure they need to be changed.' => 
 		'Ne modifiez pas la valeur de ces champs, sauf si vous êtes sûr qu’ils nécessitent d’être modifiés.',
+
+		'Leaving these fields empty will always execute the data source.' =>
+		'Laisser les champs vide va toujours exécuter la source de donnée',
 
 		'Line %s' => 
 		'Ligne %s',
@@ -859,6 +898,9 @@
 		'Parameter Output' => 
 		'Paramètres de sortie',
 
+		'Parameters' =>
+		'Paramètres',
+
 		'Parent Page' => 
 		'Page parente',
 
@@ -910,6 +952,16 @@
 		'Recipient username was invalid' => 
 		'Le nom du destinataire n’est pas valide',
 
+		'Redirect to 404 page when no results are found' =>
+		'Rediriger à la page 404 quand aucun résultat est présent',
+
+		'Redirect to 404 page when the forbidden parameter is present' =>
+		'Rediriger à la page 404 quand le paramètre interdit est présent',
+
+
+		'Redirect to 404 page when the required parameter is not present' =>
+		'Rediriger à la page 404 quand le paramètre requis n\'est pas présent',
+
 		'Region' => 
 		'Région',
 
@@ -921,6 +973,9 @@
 
 		'Reordering was unsuccessful.' => 
 		'La réorganisation a échoué.',
+
+		'Required Parameter' =>
+		'Paramètre Requis',
 
 		'Required URL Parameter <i>Optional</i>' => 
 		'Paramètre d’URL requis <i>Optionnel</i>',
@@ -981,6 +1036,9 @@
 
 		'Sort by %1$s %2$s' => 
 		'Trier par %1$s %2$s',
+
+		'Sorting' =>
+		'Trier',
 
 		'Sorting and Limiting' => 
 		'Tris et limitations',
@@ -1440,8 +1498,14 @@
 		'Event Execution' => 
 		'Exécution d’événement',
 
+		'Event Filters add additional conditions or actions to an event.' =>
+		'Les Filtres Événements ajoutent des conditions additionnelles ou des actions pour un événement.',
+
 		'Existing Installation' => 
 		'Installation existante',
+
+		'Expand all' =>
+		'Tout développer',
 
 		'Export Ensemble cannot be installed, since the "<a href="http://php.net/manual/en/book.zip.php">ZipArchive</a>" class is not available. Ensure that PHP was compiled with the <code>--enable-zip</code> flag.' => 
 		'L’Ensemble ne peut être installé, car la classe "<a href="http://php.net/manual/en/book.zip.php">ZipArchive</a>" n’est pas disponible. Assurez-vous que PHP a été compilé avec l’option <code>--enable-zip</code>.',
@@ -1526,6 +1590,12 @@
 
 		'System Standard' => 
 		'Standard système',
+
+		'The data will only be available on the selected pages.' =>
+		'La data va être seulement accessible sur la page sélectionnée.',
+
+		'The event will only be available on the selected pages.' =>
+		'Les événements vont être seulement accessible sur la page sélectionnée',
 
 		'The parameter <code id="output-param-name">$ds-%s</code> will be created with this field\'s value for XSLT or other data sources to use.' => 
 		'Le paramètre <code id="output-param-name">$ds-%s</code> sera créé avec la valeur de ce champ pour XSLT ou d’autres sources de données.',
