@@ -676,6 +676,9 @@
 		'ID' => 
 		'ID',
 
+		'Ignore?' =>
+		'Ignorer?',
+
 		'Include a count of entries in associated sections' =>
 		'Inclus un compte des entrées avec l\'association des sections',
 
@@ -964,6 +967,9 @@
 
 		'Region' => 
 		'Région',
+
+		'Remove installer?' =>
+		'Enlever l\'installateur',
 
 		'Remove File' => 
 		'Supprimer le fichier',
@@ -1473,6 +1479,9 @@
 
 		'Download Language File' => 
 		'Télécharger le fichier de langue',
+
+		'drag to reorder' =>
+		'glisser pour réarranger',
 
 		'e. g. de, fr' => 
 		'p. ex. de, fr',
