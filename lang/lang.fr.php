@@ -421,6 +421,9 @@
 		'Default Area' =>
 		'Région par défault',
 
+		'Default Email Settings' =>
+		'Paramètres d\'Email par défault',
+
 		'Default Section' => 
 		'Section par défaut',
 
@@ -646,6 +649,9 @@
 		'Formatting' => 
 		'Mise en forme',
 
+		'Gateway' =>
+		'Passerelle',
+
 		'General' => 
 		'Général',
 
@@ -739,6 +745,9 @@
 		'Line %s' => 
 		'Ligne %s',
 
+		'Links' =>
+		'Liens',
+
 		'list of comma author usernames.' => 
 		'liste des identifiants d’auteurs séparés par des virgules.',
 
@@ -747,6 +756,9 @@
 
 		'Login Details' => 
 		'Détails de connexion',
+
+		'Log out'=>
+		'Déconnexion',
 
 		'Logout' => 
 		'Déconnexion',
@@ -1450,6 +1462,9 @@
 
 		'You must enter your name.' => 
 		'Vous devez entrer votre nom.',
+
+		'Your Symphony installation is up to date, but the installer was still detected. For security reasons, it should be removed.' =>
+		'Votre installation de Symphony est à jour, mais l\'installateur est toujours détecté. Pour des raisons de sécurité, il devrait être enlever',
 
 		'ZLib Compression Library' => 
 		'Librairie de compression ZLib',
