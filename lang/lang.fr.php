@@ -418,6 +418,9 @@
 		'Dear <!-- RECIPIENT NAME -->,' => 
 		'Cher(e) <!-- RECIPIENT NAME -->,',
 
+		'Default Area' =>
+		'Région par défault',
+
 		'Default Section' => 
 		'Section par défaut',
 
