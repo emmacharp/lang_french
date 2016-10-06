@@ -179,7 +179,7 @@
 		'Un numéro de page doit être défini',
 
 		'A page with that handle already exists' => 
-		'une page utilisant ce gestionnaire existe déjà',
+		'une page utilisant ce titre existe déjà',
 
 		'A page with that title already exists' => 
 		'Une page avec ce titre existe déjà',
@@ -665,7 +665,7 @@
 		'Poilu',
 
 		'Handle' => 
-		'Manipuler',
+		'Titre',
 
 		'Hi %s,' => 
 		'Salut %s,',
@@ -1314,10 +1314,10 @@
 		'Mettre à jour Symphony',
 
 		'Uploading \'%s\' failed. Could not write temporary file to disk.' => 
-		'Échec de chargement de \'%s\'. Impossible d’écrire le fichier temporaire sur le disque.',
+		'Échec du chargement de \'%s\'. Impossible d’écrire le fichier temporaire sur le disque.',
 
 		'Uploading \'%s\' failed. File upload stopped by extension.' => 
-		'Échec de chargement de \'%s\'. Le chargement du fichier a été stoppé par l’extension.',
+		'Échec du chargement de \'%s\'. Le chargement du fichier a été stoppé par l’extension.',
 
 		'URI' => 
 		'URI',
@@ -1326,7 +1326,7 @@
 		'URL',
 
 		'URL Handle' => 
-		'Gestionnaire d’URL',
+		'Valeur d’URL',
 
 		'URL Parameters' => 
 		'Paramètres d’URL',
