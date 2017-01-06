@@ -7,7 +7,7 @@
 			'email' =>'bonjour@pierrebertet.net',
 			'website' =>'http://pierrebertet.net/'
 		),
-		'release-date' =>'2012-08-30',
+		'release-date' =>'2017-01-06',
 	);
 
 
