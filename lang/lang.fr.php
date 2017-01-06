@@ -535,8 +535,17 @@
 		'Entries' => 
 		'Entrées',
 
-		'Entry created at %1$s. <a href="%2$s">Create another?</a> <a href="%3$s">View all Entries</a>' => 
-		'Entrée créée à %1$s. <a href="%2$s">Créer un autre ?</a> <a href="%3$s">Voir toutes les entrées</a>',
+		'Create another?' =>
+		'Créer un autre ?',
+		
+		'View all Entries' =>
+		'Voir toutes les entrées',
+
+		'Entry updated at %s.' =>
+		'Entrée mise à jour à %s.',
+
+		'Entry created at %s.' =>
+		'Entrée créée à %s.',
 
 		'Entry created successfully.' => 
 		'Entrée créée avec succès.',
@@ -550,9 +559,6 @@
 		'Entry limit specified was not a valid type. String or Integer expected.' => 
 		'Le type de la limite d’entrée spécifiée est incorrect. Une chaîne de caractères ou un nombre sont attendus.',
 
-		'Entry updated at %1$s. <a href="%2$s">Create another?</a> <a href="%3$s">View all Entries</a>' => 
-		'Entrée mise à jour à %1$s. <a href="%2$s">Créer un autre ?</a> <a href="%3$s">Voir toutes les entrées</a>',
-
 		'Entry [created | edited] successfully.' => 
 		'[Création | Modification ] de l’entrée réussie.',
 
@@ -565,14 +571,17 @@
 		'Essentials' => 
 		'Informations principales',
 
-		'Event created at %1$s. <a href="%2$s">Create another?</a> <a href="%3$s">View all Events</a>' => 
-		'Événement créé à%1$s. <a href="%2$s">Créer un autre ?</a> <a href="%3$s">Voir tous les événements</a>',
+		'View all Events' =>
+		'Voir tous les événements',
+
+		'Event created at %s.' =>
+		'Événement créé à %s.',
 
 		'Events' => 
 		'Événements',
 
-		'Event updated at %1$s. <a href="%2$s">Create another?</a> <a href="%3$s">View all Events</a>' => 
-		'Événement mis à jour à %1$s. <a href="%2$s">Créer un autre ?</a> <a href="%3$s">Voir tous les événements</a>',
+		'Event updated at %s.' =>
+		'Événement mis à jour à %s.',
 
 		'Example Front-end Form Markup' => 
 		'Example de balisage pour un formulaire de la partie publique',
