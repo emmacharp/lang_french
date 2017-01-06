@@ -217,8 +217,11 @@
 		'Author' => 
 		'Auteur',
 
-		'Author created at %1$s. <a href="%2$s">Create another?</a> <a href="%3$s">View all Authors</a>' => 
-		'Auteur créé à %1$s. <a href="%2$s">Créer un autre ?</a> <a href="%3$s">Voir tous les auteurs</a>',
+		'View all Authors' =>
+		'Voir tous les auteurs',
+
+		'Author created at %s.' =>
+		'Auteur créé à %s.',
 
 		'Author ID' => 
 		'Identifiant de l’auteur',
@@ -232,8 +235,8 @@
 		'Authors can set up a differing language in their profiles.' => 
 		'Les auteurs peuvent définir une autre langue dans leur profil.',
 
-		'Author updated at %1$s. <a href="%2$s">Create another?</a> <a href="%3$s">View all Authors</a>' => 
-		'Auteur mis à jour à %1$s. <a href="%2$s">Créer un autre ?</a> <a href="%3$s">Voir tous les auteurs</a>',
+		'Author updated at %s.' => 
+		'Auteur mis à jour à %s.',
 
 		'A Utility with that name already exists. Please choose another.' => 
 		'Un utilitaire de ce nom existe déjà. Veuillez en choisir un nouveau.',
@@ -391,8 +394,11 @@
 		'Data Source' => 
 		'Source de données',
 
-		'Data source created at %1$s. <a href="%2$s">Create another?</a> <a href="%3$s">View all Data sources</a>' => 
-		'Source de données créée à %1$s. <a href="%2$s">Créer une autre&nbsp;?</a> <a href="%3$s">Voir toutes les sources de données</a>',
+		'View all Data sources' =>
+		'Voir toutes les sources de données',
+
+		'Data source created at %s.' =>
+		'Source de données créée à %s.',
 
 		'Data source output grouping is not supported by the <code>%s</code> field' => 
 		'La sortie de la source de données n’est pas supportée par le champ <code>%s</code>',
@@ -400,8 +406,8 @@
 		'Data Sources' => 
 		'Sources de données',
 
-		'Data source updated at %1$s. <a href="%2$s">Create another?</a> <a href="%3$s">View all Data sources</a>' => 
-		'Source de données mise à jour à %1$s. <a href="%2$s">Créer une autre&nbsp;?</a> <a href="%3$s">Voir toutes les sources de données</a>',
+		'Data source updated at %s.' =>
+		'Source de données mise à jour à %s.',
 
 		'Date' => 
 		'Date',
@@ -592,14 +598,26 @@
 		'Extensions' => 
 		'Extensions',
 
-		'Failed to delete <code>%s</code>. Please check permissions.' => 
-		'Impossible de supprimer <code>%s</code>. Veuillez vérifier les permissions.',
+		'Failed to delete %s.' => 
+		'Impossible de supprimer %s.',
 
-		'Failed to write Data source to <code>%s</code>. Please check permissions.' => 
-		'Impossible de modifier <code>%s</code>. Veuillez vérifier les permissions.',
+		'Please check permissions on %s' =>
+		'Veuillez vérifier les permissions de %s.',
 
-		'Failed to write Event to <code>%s</code>. Please check permissions.' => 
-		'Impossible de créer l’Événement dans <code>%s</code>. Veuillez vérifier les permissions.',
+		'Failed to write Data source to disk.' => 
+		'Impossible de modifier la source de donnée sur le disque',
+
+		'Failed to load URL, status code %d was return' =>
+		'Échec du chargement de l’URL, code de status %s',
+
+		'Invalid URL' =>
+		'URL invalid',
+
+		'Request timed out. %d second limit reached' =>
+		'Délai de la requête écoulé. La limite de %d secondes a été atteint.',
+
+		'Failed to write Event to disk.' => 
+		'Impossible de créer l’Événement sur le disque.',
 
 		'Fields' => 
 		'Champs',
@@ -892,11 +910,11 @@
 		'Page could not be deleted because it has children.' => 
 		'La page ne peut pas être supprimée car elle contient des éléments enfants.',
 
-		'Page could not be written to disk. Please check permissions on <code>/workspace/pages</code>.' => 
-		'La page n’a pu être écrite sur le disque. Veuillez vérifier les permissions de <code>/workspace/pages</code>.',
+		'View all Pages' =>
+		'Voir toutes les pages',
 
-		'Page created at %1$s. <a href="%2$s">Create another?</a> <a href="%3$s">View all Pages</a>' => 
-		'Page crée à %1$s. <a href="%2$s">Créer une autre ?</a> <a href="%3$s">Voir toutes les Pages</a>',
+		'Page created at %s.' => 
+		'Page crée à %s.',
 
 		'Page ID' => 
 		'Identifiant de la page',
@@ -916,11 +934,8 @@
 		'Page Type' => 
 		'Type de page',
 
-		'Page updated at %1$s. <a href="%2$s">Create another?</a> <a href="%3$s">View all Pages</a>' => 
-		'Page mise à jour à %1$s. <a href="%2$s">Créer une autre ?</a> <a href="%3$s">Voir toutes les Pages</a>',
-
-		'Page updated at %s. <a href="%s">View all Pages</a>' => 
-		'Page mise à jour à %s. <a href="%s">Voir toutes les Pages</a>',
+		'Page updated at %s.' => 
+		'Page mise à jour à %s.',
 
 		'Parameter Output' => 
 		'Paramètres de sortie',
@@ -1019,8 +1034,11 @@
 		'Save Changes' => 
 		'Enregistrer les modifications',
 
-		'Section created at %1$s. <a href="%2$s">Create another?</a> <a href="%3$s">View all Sections</a>' => 
-		'Section crée à %1$s. <a href="%2$s">Créer une nouvelle ?</a> <a href="%3$s">Voir toutes les sections</a>',
+		'View all Sections' =>
+		'Voir toutes les sections',
+
+		'Section created at %s.' =>
+		'Section crée à %s.',
 
 		'Section is invalid' => 
 		'La section est invalide',
@@ -1031,8 +1049,8 @@
 		'sections' => 
 		'sections',
 
-		'Section updated at %1$s. <a href="%2$s">Create another?</a> <a href="%3$s">View all Sections</a>' => 
-		'Section mise à jour à %1$s. <a href="%2$s">Créer une nouvelle ?</a> <a href="%3$s">Voir toutes les sections</a>',
+		'Section updated at %s.' => 
+		'Section mise à jour à %s.',
 
 		'Select Box' => 
 		'Menu de sélection',
@@ -1372,21 +1390,6 @@
 
 		'User type' => 
 		'Type d’utilisateur',
-
-		'Utilities' => 
-		'Utilitaires',
-
-		'Utility' => 
-		'Utilitaire',
-
-		'Utility could not be written to disk. Please check permissions on <code>/workspace/utilities</code>.' => 
-		'L’utilitaire n’a pu être écrit sur le disque. Veuillez vérifier les permissions de <code>/workspace/utilities</code>.',
-
-		'Utility created at %1$s. <a href="%2$s">Create another?</a> <a href="%3$s">View all Utilities</a>' => 
-		'Utilitaire créé à %1$s. <a href="%2$s">Créer un autre ?</a> <a href="%3$s">Voir tous les utilitaires</a>',
-
-		'Utility updated at %1$s. <a href="%2$s">Create another?</a> <a href="%3$s">View all Utilities</a>' => 
-		'Utilitaire mis à jour à %1$s. <a href="%2$s">Créer un autre ?</a> <a href="%3$s">Voir tous les utilitaires</a>',
 
 		'Validation Rule <i>Optional</i>' => 
 		'Règle de navigation <i>Optionnel</i>',
