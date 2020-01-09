@@ -428,7 +428,7 @@
 		'Région par défault',
 
 		'Default Email Settings' =>
-		'Paramètres d\'Email par défault',
+		'Paramètres d\'Email par défaut',
 
 		'Default Section' =>
 		'Section par défaut',
